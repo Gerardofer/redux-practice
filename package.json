@@ -4,7 +4,7 @@
   "description": "> Webpack 4 tutorial: All You Need to Know, from 0 Conf to Production Mode",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack-dev-server --host $IP --port $PORT --hot --inline --mode development",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -29,6 +29,7 @@
     "mini-css-extract-plugin": "^0.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "webpack": "^4.17.1",
     "webpack-cli": "^2.1.5",
